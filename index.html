@@ -1,11 +1,73 @@
 <!-- homepage -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <title>Pet Pantry Documentation</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #ffffff;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      h1 {
+        margin-top: 50px;
+        font-size: 2.5rem;
+        color: #500000; /* maroon */
+      }
+
+      p.description {
+        max-width: 600px;
+        margin-top: 15px;
+        font-size: 1.1rem;
+        color: #666666; /* medium grey */
+        padding: 0 20px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 30px;
+      }
+
+      li {
+        margin: 15px 0;
+      }
+
+      a {
+        text-decoration: none;
+        background-color: #500000; /* maroon */
+        color: white;
+        padding: 12px 24px;
+        border-radius: 25px;
+        font-size: 1.1rem;
+        transition: background-color 0.3s ease;
+        display: inline-block;
+      }
+
+      a:hover {
+        background-color: #800000; /* deeper maroon */
+      }
+
+      .paw {
+        font-size: 3rem;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
+    <div class="paw">🐾</div>
     <h1>Pet Pantry Documentation</h1>
+    <p class="description">
+      This site contains the code documentation for both the frontend and backend of the Pet Pantry project.
+    </p>
     <ul>
       <li><a href="backend/index.html">Backend Docs</a></li>
       <li><a href="public_view/index.html">Public View Docs</a></li>
